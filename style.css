@@ -80,7 +80,7 @@ a {
 }
 
 .btn {
-  padding: 10px 30px;
+  padding: 10px 20px;
   /* padding-top: 11px; */
   background-color: #006a50;
   text-transform: capitalize;
@@ -103,6 +103,14 @@ a {
   height: fit-content;
   margin: 0 auto;
 }
+
+.sec-heading h2 {
+  font-size: 40px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
 /* COMMON STYLES ENDS */
 
 /* HEADER SECTION STYLES */
@@ -110,7 +118,6 @@ a {
 header {
   width: 100%;
   height: 100vh;
-  background-color: #f5f5f5;
 }
 
 /* navbar */
@@ -206,5 +213,152 @@ nav a:hover {
   object-fit: contain;
 }
 /* banner ends */
-
 /* HEADER SECTION STYLES */
+
+/* MAIN SECTION STYLES */
+/* pillars */
+#pillars {
+  width: 100%;
+  height: fit-content;
+  padding: 40px 0 80px 0;
+}
+
+#pillars .container .card-wrapper {
+  width: 100%;
+  height: fit-content;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#pillars .container .card-wrapper .card {
+  width: 302px;
+  height: 244px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+#pillars .container .card-wrapper .card .card-text {
+  margin-top: 10px;
+}
+
+#pillars .container .card-wrapper .card .card-text h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#pillars .container .card-wrapper .card .card-text p {
+  font-size: 16px;
+}
+/* pillars ends */
+
+/* the vision of future */
+#vision {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0 80px 0;
+}
+
+#vision .container .sec-heading p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#vision .container .future-cards {
+  width: 100%;
+  height: fit-content;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#vision .container .future-cards .future-card {
+  width: 410px;
+  height: 325px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 15px;
+}
+
+#vision .container .future-cards .future-card .text-box h4 {
+  font-size: 20px;
+  margin: 30px 0 10px 0;
+}
+
+#vision .container .future-cards .future-card .text-box p {
+  font-size: 16px;
+}
+
+#vision .container .future-cards .card-1 {
+  background-color: #d5e1f5;
+}
+
+#vision .container .future-cards .card-1 .btn {
+  background-color: #5490f5;
+}
+
+#vision .container .future-cards .card-1 .btn:hover {
+  background-color: rgba(84, 144, 245, 0.8);
+}
+
+#vision .container .future-cards .card-2 {
+  background-color: #c6e4d6;
+}
+
+#vision .container .future-cards .card-2 .btn {
+  background-color: #09a15c;
+}
+
+#vision .container .future-cards .card-2 .btn:hover {
+  background-color: rgba(9, 161, 92, 0.8);
+}
+
+#vision .container .future-cards .card-3 {
+  background-color: #f7ebcf;
+}
+
+#vision .container .future-cards .card-3 .btn {
+  background-color: #ffc239;
+}
+
+#vision .container .future-cards .card-3 .btn:hover {
+  background-color: rgba(255, 194, 57, 0.8);
+}
+
+#vision .container .quotation {
+  width: 100%;
+  height: 256px;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+#vision .container .quotation .quote {
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 20px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#vision .container .quotation .quote .titles h4 {
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+#vision .container .quotation .quote .titles p {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.6);
+  margin-top: 5px;
+}
+/* the vision of future ends */
+/* MAIN SECTION STYLES ENDS */
