@@ -95,7 +95,7 @@ a {
 }
 
 .btn:hover {
-  background-color: rgba(0, 106, 80, 0.9);
+  background-color: rgba(0, 106, 80, 0.8);
 }
 
 .container {
@@ -361,4 +361,102 @@ nav a:hover {
   margin-top: 5px;
 }
 /* the vision of future ends */
+
+/* Opinion section styles */
+#opinion {
+  width: 100%;
+  height: fit-content;
+  padding: 10px 0 80px 0;
+}
+
+#opinion .opinion-container {
+  margin-top: 40px;
+  width: 100%;
+  height: 409px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+#opinion .opinion-container .content-wrapper {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+#opinion .opinion-container .content-wrapper .headings {
+  width: 100%;
+  height: 72px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c6e4d6;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+#opinion .opinion-container .content-wrapper .headings h4 {
+  font-size: 20px;
+}
+
+#opinion .opinion-container .content-wrapper .opinion-item {
+  width: 100%;
+  height: 92px;
+  /* padding: 0 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+#opinion .opinion-container .content-wrapper .opinion-item .left {
+  width: 83%;
+  height: 100%;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #bdbdbd;
+}
+
+#opinion .opinion-container .content-wrapper .opinion-item .left h4 {
+  font-size: 16px;
+}
+
+#opinion .opinion-container .content-wrapper .opinion-item .right {
+  width: 17%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#opinion .opinion-container .content-wrapper .opinion-item .right .btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  background-color: #c6e4d6;
+}
+
+#opinion .opinion-container .content-wrapper .opinion-item .right .btn select {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#opinion
+  .opinion-container
+  .content-wrapper
+  .opinion-item
+  .right
+  .btn
+  select
+  option {
+  background-color: #c6e4d6;
+}
+/* Opinion section styles ends */
 /* MAIN SECTION STYLES ENDS */
